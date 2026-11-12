@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "karaoke-maker": {
+      "type": "http",
+      "url": "https://karaokemaker3000.art/mcp",
+      "oauth": {
+        "clientId": "karaoke-codex",
+        "callbackUrl": "http://127.0.0.1/callback"
+      }
+    }
+  }
+}

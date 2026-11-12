@@ -1,0 +1,48 @@
+{
+  "name": "karaoke-maker-3000",
+  "version": "0.2.0",
+  "description": "Prepare, create and continue karaoke videos using your existing Karaoke Maker account.",
+  "homepage": "https://karaokemaker3000.art/agents",
+  "author": {
+    "name": "karaoke-maker-3000",
+    "url": "https://karaokemaker3000.art"
+  },
+  "keywords": [
+    "karaoke",
+    "music",
+    "lyrics",
+    "video",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/setup/SKILL.md"
+    }
+  },
+  "interface": {
+    "displayName": "karaoke-maker-3000",
+    "shortDescription": "Make karaoke from your MP3.",
+    "defaultPrompt": [
+      "Create karaoke from this MP3.",
+      "Make karaoke with a snowy forest background and blue accents.",
+      "Continue my last karaoke project."
+    ],
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.svg",
+    "longDescription": "Prepare an MP3, review its current price and create a karaoke MP4 with instrumental audio, synced lyrics and a background. Continue the same Quick project or hand it to Studio for detailed correction. Uses your connected Karaoke Maker account and balance. File delivery depends on the host: selected local files use the scoped upload flow when local streaming is available.",
+    "developerName": "karaoke-maker-3000",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Skills",
+      "MCP"
+    ],
+    "websiteURL": "https://karaokemaker3000.art",
+    "privacyPolicyURL": "https://karaokemaker3000.art/privacy.html",
+    "termsOfServiceURL": "https://karaokemaker3000.art/legal/public-offer.pdf",
+    "brandColor": "#9B87FA"
+  }
+}
